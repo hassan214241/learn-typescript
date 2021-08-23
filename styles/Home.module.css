@@ -118,4 +118,14 @@
     width: 100%;
     flex-direction: column;
   }
+
+  
+}
+
+.main{
+  justify-content: center;
+  align-items: center;
+background-color: chartreuse;
+height:100vh;
+width: 100%;
 }

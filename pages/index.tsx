@@ -1,12 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css';
-import 'antd/dist/antd.css';
-import { Form, Input, Button, Checkbox } from 'antd';
-
+import '../styles/Home.module.css';
 // import "../styles/Style.css";
 
+import { Form, Input, Button, Checkbox } from 'antd';
 
 const Home: NextPage = () => {
   const onFinish = (values: any) => {
@@ -18,7 +16,7 @@ const Home: NextPage = () => {
   };
   
   return (
-    <div style={{justifyContent:'center',alignItems:'center', height:"full",width:"full", backgroundColor:"green",flex:"center"}}>
+    <div className={"main"}>
     <Form
     name="basic"
     labelCol={{ span: 8 }}
